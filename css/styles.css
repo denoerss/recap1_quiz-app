@@ -1,0 +1,23 @@
+.question-card {
+  background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5%;
+  margin: 5%;
+  gap: 10%;
+}
+
+.bookmark {
+}
+
+.question {
+  font-size: 3em;
+  text-align: center;
+}
+
+.show-answer {
+}
+
+.tag {
+  list-style: none;
+  text-align: center;
+}
