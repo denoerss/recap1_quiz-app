@@ -1,6 +1,12 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* cards */
+
 .card {
   background-color: lightgray;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 2.5em;
   height: auto;
   width: auto;
@@ -18,6 +24,13 @@
   top: 10%;
 }
 
+/* Insert hover activate bookmark! */
+/* 
+.bookmark:hover {
+  image: url('./assets/bookmark_active.svg');
+} 
+  */
+
 .card__question {
   font-size: 3em;
   text-align: center;
@@ -26,7 +39,6 @@
 
 .card__button-answer {
   text-decoration: none;
-  font-style: bold;
   color: black;
   background-color: greenyellow;
   display: table;
@@ -60,4 +72,25 @@
   color: black;
   background-color: greenyellow;
   cursor: pointer;
+}
+
+/* footer */
+
+.navbar {
+  background: greenyellow;
+  padding: 2em;
+}
+
+.navbar__section {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  text-align: center;
+}
+
+.navbar__link {
+  scale: 250%;
+  text-decoration: none;
+  color: black;
+  margin: 1.5em auto;
 }
