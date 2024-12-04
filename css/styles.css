@@ -6,7 +6,7 @@ body {
 /* title */
 .main-title {
   text-align: center;
-  font-size: 9.5em;
+  font-size: 10em;
   background-color: greenyellow;
   margin: 0;
   padding: 0.3em;
@@ -48,12 +48,14 @@ body {
 
 .card__button-answer {
   text-decoration: none;
+  font-size: 1em;
   color: black;
   background-color: greenyellow;
   display: table;
   margin: 1em auto 2.5em auto;
   padding: 10%;
   border-radius: 0.5em;
+  border: 0;
 }
 
 .card__button-answer:hover {
@@ -62,17 +64,17 @@ body {
 
 .card__categories {
   list-style: none;
-  display: grid;
-  grid-row: 3;
+  display: flex;
   flex-wrap: wrap;
   gap: 5%;
-  margin-bottom: 2em;
   color: white;
 }
 
 .card__tag {
   background-color: black;
+  font-size: 0.4em;
   padding: 1em;
+  width: 20%;
   border-radius: 0.5em;
   cursor: pointer;
   text-align: center;
